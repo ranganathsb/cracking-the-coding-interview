@@ -44,7 +44,6 @@
     <TargetFrameworkMonikerAssemblyAttributesPath>$(MSBuildThisFileDirectory)AssemblyAttributes.cs</TargetFrameworkMonikerAssemblyAttributesPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -62,13 +61,22 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Chapter 16\Tests16_1.cs" />
+    <Compile Include="Chapter 16\Tests16_2.cs" />
+    <Compile Include="Chapter 16\Tests16_4.cs" />
     <Compile Include="Chapter 1\Test1_1.cs" />
     <Compile Include="Chapter 1\Test1_5.cs" />
     <Compile Include="Chapter 4\Test4_1.cs" />
     <Compile Include="Chapter 4\Test4_2.cs" />
     <Compile Include="Chapter 4\Test4_3.cs" />
+    <Compile Include="Chapter 4\Test4_4.cs" />
+    <Compile Include="Chapter 5\Test5_1.cs" />
+    <Compile Include="Chapter 5\Tests5_2.cs" />
     <Compile Include="ListHelpers.cs" />
+    <Compile Include="Misc\LeastRecentlyUsedCacheTests.cs" />
     <Compile Include="MatrixHelpers.cs" />
+    <Compile Include="Misc\CountingIslandsTests.cs" />
+    <Compile Include="OverlappingParties\OverlappingPartiesTests.cs" />
     <Compile Include="Misc\SubstringSearchTests.cs" />
     <Compile Include="Misc\WordFrequenciesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
